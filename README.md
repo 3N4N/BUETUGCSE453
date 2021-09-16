@@ -201,3 +201,26 @@
   - Define an approximate partition vector using the histogram for a parallel
     system with nodes N0, N1, N2 and N3.
   - Draw the approximate histogram of your partition vector.
+
+
+### Slide 3: [Answers](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/cw-notes/1605023_CSE453_WEEK3.pdf)
+
+- **7-1**:
+
+  Explain how data distribution skew and execution skew can be handled using
+  virtual node partitioning.
+
+- **7-2**:
+
+  Explain how a query is executed in parallel storage system with dynamic
+  partitioned storage of a relation. The query and the partitioning is on the
+  same attribute.
+
+- **8-1**:
+
+  Write advantages and disadvantages of replication.
+
+- **8-2**:
+
+  Using 64MB block size, how can you store a file named “YourId_HDFS” of size
+  10GB in Hadoop file system?
