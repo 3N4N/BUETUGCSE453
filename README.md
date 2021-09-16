@@ -52,7 +52,7 @@
 - Types of skew
   - Data-distributed skew
     - Attribute-value skew
-  - Partition skew
+    - Partition skew
   - Execution skew
 - Balanced range-partitioning vectors
 - Static vs Dynamic partitioning
