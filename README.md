@@ -14,11 +14,11 @@
 - Parallel DB system architecture
   - Tree-like / Fat-tree topology
 - Parallel systems
-  - coarse-grain parallel machine
-  - massively parallel or fine grain parallel machine
+  - Coarse-grain parallel machine
+  - Massively parallel or fine grain parallel machine
 - Performance measures
-  - throughput
-  - response time
+  - Throughput
+  - Response time
 - Speed up
 - Scale up
 - Amdahl's law
@@ -40,7 +40,7 @@
   - Remote Direct Memory Access (RDMA)
 
 
-### Slide 2: [Parallel and Distributed Architecture](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/01_Introduction.pdf)
+### Slide 2: [Parallel and Distributed Architecture](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/02_Parallel-DB-Storage.pdf)
 
 - IO parallelism
   - Horizontal partitioning
@@ -55,11 +55,29 @@
     - Partition skew
   - Execution skew
 - Balanced range-partitioning vectors
+  - Through sorting and repartitioning
+  - Using histogram and virtual partitioning
 - Static vs Dynamic partitioning
 - Histograms
   - Equi-width
   - Equi-depth
 
+### Slide 3: [Parallel and Distributed Architecture](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/03_Parallel-DB-Storage.pdf)
+
+- Virtual node partitioning
+- Dynamic repartitioning
+- Tablets
+- Routing of queries
+  - Master node
+  - Consistent hashing
+  - Distributed hash table
+- Replication
+- Distributed file system
+- Metadata
+- Hadoop Distributed File System (HDFS)
+- Google File System (GFS)
+- Sharding
+- Data Storage Systems vs Databases
 
 ## Questions and Answers
 
