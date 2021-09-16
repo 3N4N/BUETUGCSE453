@@ -79,6 +79,29 @@
 - Sharding
 - Data Storage Systems vs Databases
 
+### Slide 4: [Parallel Database Query Processing](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/03_Parallel-DB-Storage.pdf)
+
+- Parallel query processing
+  - Interquery parallelism
+    - Intraoperation parallelism
+    - Interoperation parallelism
+  - Interquery parallelism
+- Sorting
+  - External sorting using sort-merge
+  - Parallel sort
+    - Range-partition sort
+    - Parallel external sort-merge
+- Interopetaror parallelism
+- Pipeline parallelism
+- Independent parallelism
+- Other relational operators
+  - Selection
+  - Duplicate elimination
+  - Projection
+- Grouping
+- Aggregation
+
+
 ## Questions and Answers
 
 ### Slide 1: [Answers](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/cw-notes/1605023_CSE453_WEEK1.pdf)
