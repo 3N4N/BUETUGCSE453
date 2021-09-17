@@ -119,6 +119,35 @@
   - Sequential plan
   - Parallel plan
 
+### Slide 6: [Data Analytics](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/06_Data-analytics.pdf)
+
+- Use cases
+  - Mining
+  - DSS
+- Steps in data analysis
+  - ETL: extract-transform-load
+  - ELT: extract-load-transform
+  - OLAP: Online analytical processing systems
+- Predictive models
+- BI: business intelligence
+- Decision support
+- FDBS: federated database system
+- Wrapper
+- Mediator systems
+- Data warehouse
+- Multidimensional data
+  - Fact tables
+    - Dimension attributes
+    - Measure attributes
+  - Dimension tables
+- Star schema
+- Cross tabulation / pivot table
+- Data cube
+- Hierarchy on dimension attributes
+- Cross tabulation with hierarchy
+  - Drill down
+  - Roll up
+
 
 ## Questions and Answers
 
