@@ -98,6 +98,27 @@
   - Duplicate elimination
   - Projection
 
+### Slide 5: [Parallel Database Query Processing](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/05_Parallel-DB_Query-Processing.pdf)
+
+- Grouping / Aggregation
+- Intraoperation Parallelism
+  - Parallel join
+  - Parallel sort
+- Interoperation Parallelism
+  - Pipeline parallelism
+  - Independent parallelism
+- Exchange operator model
+- Fragment-and-replicate join
+  - Broadcast join
+- Parallel query execution and optimization
+- Parallel query plan space
+- Cost of parallel query execution
+  - Resource consumption cost model
+  - Response time cost model
+- Choosing query plans
+  - Sequential plan
+  - Parallel plan
+
 
 ## Questions and Answers
 
