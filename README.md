@@ -148,6 +148,28 @@
   - Drill down
   - Roll up
 
+### Slide 7: [Distributed Database](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/07_Distributed-DBMS_Overview.pdf)
+
+- centralized database
+- distributed database
+  - centralized db on a network
+  - distributed DBMS environment
+    - homogeneous distributed DB
+    - heterogeneous distributed DB
+- Transparency
+  - Network transparency
+  - Replication transparency
+  - Fragmentation transparency
+    - Horizontal fragmentation: selection
+    - Horizontal fragmentation: projection
+    - Hybrid
+- Reliability through distributed transaction
+- Distributed DBMS issues
+  - Distributed DB design
+  - Query processing
+  - Concurrency control
+  - Reliability
+
 
 ## Questions and Answers
 
@@ -294,3 +316,15 @@
 
   Using 64MB block size, how can you store a file named “YourId_HDFS” of size
   10GB in Hadoop file system?
+
+
+### Slide 7: [Answers](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/cw-notes/1605023_CSE453_WEEK7.pdf)
+
+- 19-1:
+  compare homogeneous and heterogeneous DDBMS in terms of storage, querying, and
+  transaction.
+
+- 19-2:
+
+  Explain the challenges in data transparency and transactional reliability in
+  DDBMS.
