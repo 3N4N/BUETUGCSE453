@@ -223,6 +223,17 @@
 - Timestamp-based protocol: 18.5
 - Slow local clock: 23.3.5
 
+### Slide 11: [Complex Data Types](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/11_Complex-Datatype.pdf)
+
+- semi-structured data
+- noSQL
+  - what, why, and when
+  - characteristics
+  - data models
+    - Key-value
+    - Document
+    - Column family
+    - Graph
 
 
 ## Questions and Answers
