@@ -42,41 +42,41 @@
 
 ### Slide 2: [Parallel and Distributed Architecture](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/02_Parallel-DB-Storage.pdf)
 
-- IO parallelism
+- IO parallelism: 21.2
   - Horizontal partitioning
   - Vertical partitioning
-- Partitioning techniques
+- Partitioning techniques: 21.2.1
   - Round robin
   - Hash partitioning
   - Range partitioning
-- Types of skew
+- Types of skew: 21.3
   - Data-distributed skew
     - Attribute-value skew
     - Partition skew
   - Execution skew
-- Balanced range-partitioning vectors
+- Balanced range-partitioning vectors: 21.3.1
   - Through sorting and repartitioning
   - Using histogram and virtual partitioning
 - Static vs Dynamic partitioning
-- Histograms
+- Histograms: 16.3.1, 21.3.2
   - Equi-width
   - Equi-depth
 
 ### Slide 3: [Parallel and Distributed Architecture](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/03_Parallel-DB-Storage.pdf)
 
-- Virtual node partitioning
-- Dynamic repartitioning
-- Tablets
+- Virtual node partitioning: 21.3.2
+- Dynamic repartitioning: 21.3.3
+- Tablets: 21.3.3
 - Routing of queries
   - Master node
   - Consistent hashing
   - Distributed hash table
-- Replication
-- Distributed file system
-- Metadata
+- Replication: : 21.4
+- Distributed file system: 21.6
+- Metadata: 21.6
 - Hadoop Distributed File System (HDFS)
 - Google File System (GFS)
-- Sharding
+- Sharding: 26.7.1
 - Data Storage Systems vs Databases
 
 ### Slide 4: [Parallel Database Query Processing](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/04_Parallel-DB_Query-Processing.pdf)
@@ -87,13 +87,13 @@
     - Intraoperation parallelism
       - Sorting
         - External sorting using sort-merge
-        - Parallel sort
+        - Parallel sort: 22.2
           - Range-partition sort
           - Parallel external sort-merge
     - Interoperator parallelism
       - Pipeline parallelism
       - Independent parallelism
-- Other relational operators
+- Other relational operators: 22.4.1
   - Selection
   - Duplicate elimination
   - Projection
@@ -102,40 +102,40 @@
 
 - Grouping / Aggregation
 - Intraoperation Parallelism
-  - Parallel join
-  - Parallel sort
-- Interoperation Parallelism
+  - Parallel join: 22.3
+  - Parallel sort: 22.2
+- Interoperation Parallelism: 22.5.1
   - Pipeline parallelism
   - Independent parallelism
-- Exchange operator model
-- Fragment-and-replicate join
+- Exchange operator model: 22.5.2
+- Fragment-and-replicate join: 22.3.2
   - Broadcast join
 - Parallel query execution and optimization
-- Parallel query plan space
-- Cost of parallel query execution
+- Parallel query plan space: 22.7.1
+- Cost of parallel query execution: 22.7.2
   - Resource consumption cost model
   - Response time cost model
-- Choosing query plans
+- Choosing query plans: 22.7.3
   - Sequential plan
   - Parallel plan
 
 ### Slide 6: [Data Analytics](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/06_Data-analytics.pdf)
 
-- Use cases
-  - Mining
+- Use cases: 11
+  - Mining: 11.4
   - DSS
-- Steps in data analysis
+- Steps in data analysis: 11
   - ETL: extract-transform-load
   - ELT: extract-load-transform
-  - OLAP: Online analytical processing systems
+  - OLAP: Online analytical processing systems: 11.3
 - Predictive models
 - BI: business intelligence
 - Decision support
-- FDBS: federated database system
+- FDBS: federated database system: 20.5
 - Wrapper
 - Mediator systems
-- Data warehouse
-- Multidimensional data
+- Data warehouse: 11.2
+- Multidimensional data: 11.2.2
   - Fact tables
     - Dimension attributes
     - Measure attributes
@@ -144,18 +144,18 @@
 - Cross tabulation / pivot table
 - Data cube
 - Hierarchy on dimension attributes
-- Cross tabulation with hierarchy
+- Cross tabulation with hierarchy: 11.3
   - Drill down
   - Roll up
 
 ### Slide 7: [Distributed Database](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/07_Distributed-DBMS_Overview.pdf)
 
 - Centralized database
-- Distributed database
+- Distributed database: 20.5
   - Centralized db on a network
   - Distributed DBMS environment
     - Homogeneous distributed DB
-    - Heterogeneous distributed DB
+    - Heterogeneous distributed DB (= FDBS)
 - Transparency
   - Network transparency
   - Replication transparency
@@ -173,41 +173,41 @@
 ### Slide 8: [Parallel and Distributed Transaction](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/08_Parallel-and-Distributed-Transaction.pdf)
 
 - Required properties of a transaction
-  - ACID
-- Transaction state
+  - ACID: 17.2
+- Transaction state: 17.4
 - Distributed transaction
   - Local
     - Transaction manager
   - Global
     - Transaction coordinator
-- System failure modes
-- Commit protocols
+- System failure modes: 23.1.2
+- Commit protocols: 23.2
   - Fail-stop model
     - 2PC
     - 3PC
     - Consensus
-- Handling of failures
+- Handling of failures: 23.2.1.2
   - Site failure
   - Coordinator failure
-- In-doubt transactions
-- Avoid blocking with consensus protocol
-- Persistent Messaging
+- In-doubt transactions: 23.2.1.3
+- Avoid blocking with consensus protocol: 23.2.2
+- Persistent Messaging: 23.2.3
 
 ### Slide 9: [Concurrency Control](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/09_PandD_Transaction-Concurrency.pdf)
 
-- Atomicity
-- Lock-based protocols
+- Atomicity: 17.4
+- Lock-based protocols: 18.1
   - Pitfalls
-- Two-phase locking protocol
+- Two-phase locking protocol: 18.1
 - Schedule
-- Serializability
+- Serializability: 17.6
   - Conflict serializability
   - View serializability
 - Automatic acquisition of locks
-- Single lock manager approach
+- Single lock manager approach: 23.3.1
   - Advantages
   - Disadvantages
-- Concurrency control with replicas
+- Concurrency control with replicas: 23.4.2
   - Primary protocol
   - Majority protocol
   - Biased protocol
@@ -215,13 +215,14 @@
 
 ### Slide 10: [Deadlock Handling](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/10_PandD_Transaction-Processing.pdf)
 
-- Deadlock detection
+- Deadlock detection: 18.2
 - Wait-for graphs
   - Global
   - Local
-- False cycles
-- Timestamp-based protocol
-- Slow local clock
+- False cycles: 23.3
+- Timestamp-based protocol: 18.5
+- Slow local clock: 23.3.5
+
 
 
 ## Questions and Answers
