@@ -170,7 +170,7 @@
   - Concurrency control
   - Reliability
 
-### Slide 7: [Parallel and Distributed Transaction](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/08_Parallel-and-Distributed-Transaction.pdf)
+### Slide 8: [Parallel and Distributed Transaction](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/08_Parallel-and-Distributed-Transaction.pdf)
 
 - Required properties of a transaction
   - ACID
@@ -192,6 +192,26 @@
 - In-doubt transactions
 - Avoid blocking with consensus protocol
 - Persistent Messaging
+
+### Slide 8: [Concurrency Control](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/09_PandD_Transaction-Concurrency.pdf)
+
+- atomicity
+- lock-based protocols
+  - pitfalls
+- two-phase locking protocol
+- schedule
+- serializability
+  - conflict serializability
+  - view serializability
+- automatic acquisition of locks
+- single lock manager approach
+  - advantages
+  - disadvantages
+- Concurrency control with replicas
+  - primary protocol
+  - majority protocol
+  - biased protocol
+  - quorum consensus protocol
 
 
 ## Questions and Answers
