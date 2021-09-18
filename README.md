@@ -170,16 +170,39 @@
   - Concurrency control
   - Reliability
 
+### Slide 7: [Parallel and Distributed Transaction](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/08_Parallel-and-Distributed-Transaction.pdf)
+
+- Required properties of a transaction
+  - ACID
+- Transaction state
+- Distributed transaction
+  - local
+    - transaction manager
+  - global
+    - transaction coordinator
+- System failure modes
+- Commit protocols
+  - Fail-stop model
+    - 2PC
+    - 3PC
+    - Consensus
+- handling of failures
+  - site failure
+  - coordinator failure
+- In-doubt transactions
+- Avoid blocking with consensus protocol
+- Persistent Messaging
+
 
 ## Questions and Answers
 
 ### Slide 1: [Answers](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/cw-notes/1605023_CSE453_WEEK1.pdf)
 
-- **1-1**:
+- 1-1:
 
   Explain the implications of storage to MMDBMS and Disk-based DBMS.
 
-- **2-1**:
+- 2-1:
 
   A server system has 1 node (small system) and elapsed to solve problem P is 10ms.
 
@@ -189,7 +212,7 @@
 
   Find the type of speedup graph for the above system and explain
 
-- **2-2**:
+- 2-2:
 
   A server system has 1 node (small system) and elapsed to solve problem P is
   10ms.
@@ -201,7 +224,7 @@
 
     Find type of scale up graph for the above system and explain
 
-- **2-3**:
+- 2-3:
 
   Explain speedup as per Amdahl’s law for the following cases:
 
@@ -209,19 +232,19 @@
   2. No fraction of T can be executed in parallel (p =0)
   3. A fraction of T can be executed in parallel (0 < p <1)
 
-- **2-4**:
+- 2-4:
 
   Explain scaleup as per Gustafson’s law for the following cases:
 
   1. Full fraction of T can be executed in parallel (p =1)
   2. No fraction of T can be executed in parallel (p =0)
 
-- **3-1**:
+- 3-1:
 
   Discuss comparative advantages and Disadvantages of BUS, Mesh, Hypercube, and
   Tree topology.
 
-- **3-2**:
+- 3-2:
 
   Show the hierarchical architecture with top level be a shared-disk
   system and each node of the system being a shared-memory system.
@@ -297,22 +320,22 @@
 
 ### Slide 3: [Answers](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/cw-notes/1605023_CSE453_WEEK3.pdf)
 
-- **7-1**:
+- 7-1:
 
   Explain how data distribution skew and execution skew can be handled using
   virtual node partitioning.
 
-- **7-2**:
+- 7-2:
 
   Explain how a query is executed in parallel storage system with dynamic
   partitioned storage of a relation. The query and the partitioning is on the
   same attribute.
 
-- **8-1**:
+- 8-1:
 
   Write advantages and disadvantages of replication.
 
-- **8-2**:
+- 8-2:
 
   Using 64MB block size, how can you store a file named “YourId_HDFS” of size
   10GB in Hadoop file system?
