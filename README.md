@@ -375,7 +375,8 @@
 ### Slide 7: [Answers](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/cw-notes/1605023_CSE453_WEEK7.pdf)
 
 - 19-1:
-  compare homogeneous and heterogeneous DDBMS in terms of storage, querying, and
+
+  Compare homogeneous and heterogeneous DDBMS in terms of storage, querying, and
   transaction.
 
 - 19-2:
