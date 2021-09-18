@@ -150,12 +150,12 @@
 
 ### Slide 7: [Distributed Database](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/07_Distributed-DBMS_Overview.pdf)
 
-- centralized database
-- distributed database
-  - centralized db on a network
-  - distributed DBMS environment
-    - homogeneous distributed DB
-    - heterogeneous distributed DB
+- Centralized database
+- Distributed database
+  - Centralized db on a network
+  - Distributed DBMS environment
+    - Homogeneous distributed DB
+    - Heterogeneous distributed DB
 - Transparency
   - Network transparency
   - Replication transparency
@@ -176,42 +176,52 @@
   - ACID
 - Transaction state
 - Distributed transaction
-  - local
-    - transaction manager
-  - global
-    - transaction coordinator
+  - Local
+    - Transaction manager
+  - Global
+    - Transaction coordinator
 - System failure modes
 - Commit protocols
   - Fail-stop model
     - 2PC
     - 3PC
     - Consensus
-- handling of failures
-  - site failure
-  - coordinator failure
+- Handling of failures
+  - Site failure
+  - Coordinator failure
 - In-doubt transactions
 - Avoid blocking with consensus protocol
 - Persistent Messaging
 
-### Slide 8: [Concurrency Control](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/09_PandD_Transaction-Concurrency.pdf)
+### Slide 9: [Concurrency Control](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/09_PandD_Transaction-Concurrency.pdf)
 
-- atomicity
-- lock-based protocols
-  - pitfalls
-- two-phase locking protocol
-- schedule
-- serializability
-  - conflict serializability
-  - view serializability
-- automatic acquisition of locks
-- single lock manager approach
-  - advantages
-  - disadvantages
+- Atomicity
+- Lock-based protocols
+  - Pitfalls
+- Two-phase locking protocol
+- Schedule
+- Serializability
+  - Conflict serializability
+  - View serializability
+- Automatic acquisition of locks
+- Single lock manager approach
+  - Advantages
+  - Disadvantages
 - Concurrency control with replicas
-  - primary protocol
-  - majority protocol
-  - biased protocol
-  - quorum consensus protocol
+  - Primary protocol
+  - Majority protocol
+  - Biased protocol
+  - Quorum consensus protocol
+
+### Slide 10: [Deadlock Handling](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/10_PandD_Transaction-Processing.pdf)
+
+- Deadlock detection
+- Wait-for graphs
+  - Global
+  - Local
+- False cycles
+- Timestamp-based protocol
+- Slow local clock
 
 
 ## Questions and Answers
