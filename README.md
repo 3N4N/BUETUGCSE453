@@ -235,6 +235,43 @@
     - Column family
     - Graph
 
+### Slide 12: [Complex Data Types](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/12_Complex-Datatype.pdf)
+
+- JSON
+- XML
+- object-relational data model
+- object-oriented data model
+- inheritance
+  - type
+  - table
+- reference types
+  - user generated
+  - system generated
+- object-relational mapping (ORM)
+  - advantages
+- information retrieval system
+- relevance of a document
+  - TF-IDF
+  - proximity
+  - stop words
+- hyperlinks
+  - page rank
+  - random walk model
+- retrieval effectiveness
+  - precision
+  - recall
+- spatial database
+  - geographic data
+  - geometric data
+  - raster data
+  - vector data
+- spatial queries
+  - region queries
+  - nearness queries
+  - nearest neighbour queries
+  - spatial graph queries
+
+
 
 ## Questions and Answers
 
