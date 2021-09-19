@@ -271,6 +271,61 @@
   - nearest neighbour queries
   - spatial graph queries
 
+### Slide 13: [Performance Tuning](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/13_Performance-Tuning.pdf)
+
+- Raid levels
+  - 1
+  - 5
+- Choice of raid level
+
+### Slide 14: [Performance Tuning](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/slides/14_Performance-Tuning.pdf)
+
+- tuning DB design
+  - schema tuning
+    - normalization
+    - denormalization
+  - index tuning
+  - materialized views
+  - improving set orientation
+  - bulk loads
+  - bulk updates
+- tuning of transaction
+  - read-write contention
+  - write-write contention
+    - exhaust lock space
+    - exhaust log space
+- mini-batch transactions
+- performance measures
+    - Throughput / tps
+    - Response time
+    - Availability
+- performance benchmarks
+  - avg.
+  - harmonic mean: 25.2.1
+- database application classes
+  - OLTP: online transaction processing
+  - Decision support applications
+    - OLAP: online analytical processing
+- benchmark suites
+  - TPC: Transaction Processing Council
+    - TPC-A
+    - TPC-B
+    - TPC-C
+    - TPC-D
+    - TPC-H
+    - TPC-R
+    - TPC-W
+- TPC performance measures
+  - transactions-per-second with specified constraints on response time
+  - transactions-per-second-per-dollar accounts for cost of owning system
+- TPC-H and TPC-R Performance measure
+  - Power test
+  - Throughput test
+  - Composite query per hour metric
+  - Composite price/performance metric
+
+
+
 
 
 ## Questions and Answers
@@ -431,3 +486,15 @@
 
   Explain the challenges in data transparency and transactional reliability in
   DDBMS.
+
+### Slide 14: [Answers](https://raw.githubusercontent.com/3N4N/BUETUGCSE453/master/cw-notes/1605023_CSE453_WEEK14.pdf)
+
+- 38-1:
+
+  - Lock space is exhausted in Long update transactions. Explain.
+  - Log space is exhausted in Long update transactions. Explain.
+  - Recovery time is increased in Long update transactions. Explain
+
+- 39-2:
+  - Why TPC-H queries emphasises on aggregation?
+  - Why TPC-H prohibits materialized view?
